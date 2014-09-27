@@ -1,4 +1,4 @@
-package MoF;
+package amidst.project;
 
 import amidst.Util;
 import amidst.logging.Log;
@@ -120,6 +120,7 @@ public class SaveLoader
 //        }
 //    }
 
+    public static Type[] selectableTypes = new Type[] { Type.DEFAULT, Type.FLAT, Type.LARGE_BIOMES, Type.AMPLIFIED };
     public static FileFilter getFilter()
     {
         return (new FileFilter() {

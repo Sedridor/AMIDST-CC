@@ -3,7 +3,7 @@ package amidst.minecraft;
 import java.lang.reflect.Field;
 import amidst.logging.Log;
 import amidst.version.VersionInfo;
-import MoF.SaveLoader.Type;
+import amidst.project.SaveLoader.Type;
 
 public class LocalMinecraftInterface implements IMinecraftInterface
 {
@@ -27,18 +27,11 @@ public class LocalMinecraftInterface implements IMinecraftInterface
     {
         Log.debug("Attempting to create world with seed: " + seed + ", type: " + typeName + ", and the following generator options:");
         Log.debug(generatorOptions);
-        MinecraftClass blockInit; // FIXME: This is a bit hackish!
-        if (MinecraftUtil.getVersion() == VersionInfo.unknown && (blockInit = minecraft.getClassByName("BlockInit")) != null)
+        // Minecraft 1.8 and higher require block initialization to be called before creating a biome generator.
+        MinecraftClass blockInit;
+        if ((blockInit = minecraft.getClassByName("BlockInit")) != null)
         {
-            Class<?> clazz = blockInit.getClazz();
-            try
-            {
-                blockInit.callFunction("blockInit");
-            }
-            catch (Exception e)
-            {
-                Log.crash(e, "Unable to use 14w02a hack.");
-            }
+            blockInit.callFunction("blockInit");
         }
 
         Type type = Type.fromMixedCase(typeName);

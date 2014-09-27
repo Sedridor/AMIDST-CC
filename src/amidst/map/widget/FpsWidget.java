@@ -1,8 +1,8 @@
 package amidst.map.widget;
 
 import java.awt.Graphics2D;
-import MoF.MapViewer;
 import amidst.Options;
+import amidst.project.MapViewer;
 import amidst.utilties.FramerateTimer;
 
 public class FpsWidget extends PanelWidget

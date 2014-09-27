@@ -2,7 +2,7 @@ package amidst.map.widget;
 
 import java.awt.Graphics2D;
 import java.awt.Point;
-import MoF.MapViewer;
+import amidst.project.MapViewer;
 
 public class CursorInformationWidget extends PanelWidget
 {

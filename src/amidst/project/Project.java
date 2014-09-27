@@ -1,4 +1,4 @@
-package MoF;
+package amidst.project;
 
 import amidst.Options;
 import amidst.logging.Log;

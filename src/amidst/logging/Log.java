@@ -4,8 +4,8 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.HashMap;
 import javax.swing.JOptionPane;
-import MoF.FinderWindow;
 import amidst.gui.CrashDialog;
+import amidst.project.FinderWindow;
 
 public class Log
 {

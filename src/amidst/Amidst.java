@@ -6,20 +6,20 @@ import java.net.MalformedURLException;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import com.google.gson.Gson;
-import MoF.FinderWindow;
 import amidst.gui.version.VersionSelectWindow;
 import amidst.logging.FileLogger;
 import amidst.logging.Log;
 import amidst.minecraft.Minecraft;
 import amidst.minecraft.MinecraftUtil;
 import amidst.preferences.BiomeColorProfile;
+import amidst.project.FinderWindow;
 import amidst.resources.ResourceLoader;
 
 public class Amidst
 {
     public final static int version_major = 4;
-    public final static int version_minor = 0;
-    public final static String versionOffset = " beta 1";
+    public final static int version_minor = 1;
+    public final static String versionOffset = "";
     public static Image icon = ResourceLoader.getImage("icon.png");
     public static final Gson gson = new Gson();
 

@@ -1,4 +1,4 @@
-package MoF;
+package amidst.project;
 
 import amidst.Amidst;
 import amidst.gui.menu.AmidstMenu;

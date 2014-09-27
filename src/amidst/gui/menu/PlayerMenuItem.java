@@ -4,11 +4,11 @@ import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JMenuItem;
-import MoF.MapViewer;
 import amidst.map.Fragment;
 import amidst.map.Map;
 import amidst.map.MapObjectPlayer;
 import amidst.map.layers.PlayerLayer;
+import amidst.project.MapViewer;
 
 public class PlayerMenuItem extends JMenuItem implements ActionListener
 {

@@ -4,10 +4,10 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
-import MoF.MapViewer;
 import amidst.Options;
 import amidst.map.Fragment;
 import amidst.map.FragmentManager;
+import amidst.project.MapViewer;
 
 public class DebugWidget extends PanelWidget
 {

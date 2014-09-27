@@ -1,8 +1,8 @@
 package amidst.map.widget;
 
 import java.awt.Graphics2D;
-import MoF.MapViewer;
 import amidst.map.Map;
+import amidst.project.MapViewer;
 
 public class Widget
 {

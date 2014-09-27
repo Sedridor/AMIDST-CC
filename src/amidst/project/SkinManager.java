@@ -1,4 +1,4 @@
-package MoF;
+package amidst.project;
 
 import amidst.map.MapObjectPlayer;
 import java.awt.Color;

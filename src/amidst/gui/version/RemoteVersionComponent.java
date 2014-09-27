@@ -1,9 +1,9 @@
 package amidst.gui.version;
 
-import MoF.FinderWindow;
 import amidst.Options;
 import amidst.minecraft.MinecraftUtil;
 import amidst.minecraft.remote.RemoteMinecraft;
+import amidst.project.FinderWindow;
 
 public class RemoteVersionComponent extends VersionComponent
 {

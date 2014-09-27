@@ -4,8 +4,8 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
+import amidst.project.MapViewer;
 import amidst.resources.ResourceLoader;
-import MoF.MapViewer;
 
 public class PanelWidget extends Widget
 {

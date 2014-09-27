@@ -4,7 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import amidst.map.layers.BiomeLayer;
 import amidst.resources.ResourceLoader;
-import MoF.MapViewer;
+import amidst.project.MapViewer;
 
 public class BiomeToggleWidget extends PanelWidget
 {

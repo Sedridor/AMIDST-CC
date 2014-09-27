@@ -1,20 +1,12 @@
 { "name":"Default", "colorMap":[
 [ "Ocean", { "r":0, "g":0, "b":112 } ],
-[ "Ocean M", { "r":40, "g":40, "b":152 } ],
 [ "Deep Ocean", { "r":0, "g":0, "b":78 } ],
-[ "Deep Ocean M", { "r":20, "g":20, "b":64 } ],
 [ "Frozen Ocean", { "r":144, "g":144, "b":160 } ],
-[ "Frozen Ocean M", { "r":184, "g":184, "b":200 } ],
 [ "River", { "r":0, "g":0, "b":255 } ],
-[ "River M", { "r":40, "g":40, "b":255 } ],
 [ "Frozen River", { "r":160, "g":160, "b":255 } ],
-[ "Frozen River M", { "r":200, "g":200, "b":255 } ],
 [ "Beach", { "r":250, "g":222, "b":85 } ],
-[ "Beach M", { "r":255, "g":244, "b":125 } ],
 [ "Cold Beach", { "r":250, "g":240, "b":192 } ],
-[ "Cold Beach M", { "r":255, "g":250, "b":232 } ],
 [ "Stone Beach", { "r":162, "g":162, "b":132 } ],
-[ "Stone Beach M", { "r":202, "g":202, "b":172 } ],
 
 [ "Plains", { "r":121, "g":179, "b":96 } ],
 [ "Sunflower Plains", { "r":142, "g":207, "b":111 } ],
@@ -22,18 +14,15 @@
 [ "Desert", { "r":247, "g":233, "b":163 } ],
 [ "Desert M", { "r":255, "g":247, "b":174 } ],
 [ "Desert Hills", { "r":214, "g":199, "b":141 } ],
-[ "Desert Hills M", { "r":234, "g":227, "b":161 } ],
 
 [ "Extreme Hills", { "r":120, "g":142, "b":120 } ],
 [ "Extreme Hills M", { "r":91, "g":102, "b":91 } ],
 [ "Extreme Hills+", { "r":136, "g":156, "b":136 } ],
 [ "Extreme Hills+ M", { "r":109, "g":121, "b":109 } ],
 [ "Extreme Hills Edge", { "r":120, "g":132, "b":120 } ],
-[ "Extreme Hills Edge M", { "r":100, "g":111, "b":100 } ],
 
 [ "Forest", { "r":5, "g":102, "b":32 } ],
 [ "Forest Hills", { "r":4, "g":84, "b":28 } ],
-[ "Forest Hills M", { "r":2, "g":70, "b":24 } ],
 [ "Flower Forest", { "r":46, "g":142, "b":74 } ],
 [ "Birch Forest", { "r":74, "g":125, "b":70 } ],
 [ "Birch Forest M", { "r":80, "g":135, "b":76 } ],
@@ -45,11 +34,9 @@
 [ "Taiga", { "r":42, "g":107, "b":79 } ],
 [ "Taiga Hills", { "r":33, "g":84, "b":62 } ],
 [ "Taiga M", { "r":48, "g":122, "b":90 } ],
-[ "Taiga Hills M", { "r":30, "g":76, "b":56 } ],
 [ "Cold Taiga", { "r":78, "g":102, "b":70 } ],
 [ "Cold Taiga Hills", { "r":69, "g":79, "b":62 } ],
 [ "Cold Taiga M", { "r":60, "g":67, "b":55 } ],
-[ "Cold Taiga Hills M", { "r":48, "g":56, "b":44 } ],
 [ "Mega Taiga", { "r":49, "g":85, "b":74 } ],
 [ "Mega Taiga Hills", { "r":36, "g":63, "b":54 } ],
 [ "Mega Spruce Taiga", { "r":43, "g":74, "b":64 } ],
@@ -61,17 +48,13 @@
 [ "Ice Plains", { "r":255, "g":255, "b":255 } ],
 [ "Ice Plains Spikes", { "r":190, "g":232, "b":232 } ],
 [ "Ice Mountains", { "r":220, "g":220, "b":220 } ],
-[ "Ice Mountains M", { "r":190, "g":190, "b":190 } ],
 
 [ "Mushroom Island", { "r":120, "g":90, "b":150 } ],
-[ "Mushroom Island M", { "r":90, "g":60, "b":120 } ],
 [ "Mushroom Island Shore", { "r":105, "g":78, "b":130 } ],
-[ "Mushroom Island Shore M", { "r":75, "g":48, "b":100 } ],
 
 [ "Jungle", { "r":121, "g":178, "b":14 } ],
 [ "Jungle M", { "r":123, "g":163, "b":49 } ],
 [ "Jungle Hills", { "r":105, "g":155, "b":12 } ],
-[ "Jungle Hills M", { "r":84, "g":106, "b":45 } ],
 [ "Jungle Edge", { "r":98, "g":140, "b":24 } ],
 [ "Jungle Edge M", { "r":140, "g":179, "b":64 } ],
 
@@ -88,7 +71,5 @@
 [ "Mesa (Bryce)", { "r":221, "g":117, "b":55 } ]
 
 //[ "Sky", { "r":128, "g":128, "b":255 } ],
-//[ "Sky M", { "r":158, "g":158, "b":255 } ],
 //[ "Hell", { "r":255, "g":0, "b":0 } ],
-//[ "Hell M", { "r":255, "g":30, "b":30 } ]
 ] }

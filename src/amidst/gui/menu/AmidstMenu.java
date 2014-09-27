@@ -1,6 +1,5 @@
 package amidst.gui.menu;
 
-import MoF.*;
 import amidst.Amidst;
 import amidst.Options;
 import amidst.Util;
@@ -12,6 +11,7 @@ import amidst.minecraft.Biome;
 import amidst.minecraft.MinecraftUtil;
 import amidst.preferences.BiomeColorProfile;
 import amidst.preferences.SelectPrefModel.SelectButtonModel;
+import amidst.project.*;
 import amidst.resources.ResourceLoader;
 import amidst.version.VersionInfo;
 import javax.swing.*;
@@ -96,7 +96,7 @@ public class AmidstMenu extends JMenuBar
                                 {
                                     if (window.curProject.worldType == null)
                                     {
-                                        worldType = choose("New Project", "Enter world type\n", SaveLoader.Type.values());
+                                        worldType = choose("New Project", "Enter world type\n", SaveLoader.selectableTypes);
                                     }
                                     else
                                     {
@@ -282,7 +282,7 @@ public class AmidstMenu extends JMenuBar
                             SaveLoader.Type worldType = null;
                             if (worldTypePreference.equals("Prompt each time"))
                             {
-                                worldType = choose("New Project", "Enter world type\n", SaveLoader.Type.values());
+                                worldType = choose("New Project", "Enter world type\n", SaveLoader.selectableTypes);
                             }
                             else
                             {
@@ -330,7 +330,7 @@ public class AmidstMenu extends JMenuBar
                         SaveLoader.Type worldType = null;
                         if (worldTypePreference.equals("Prompt each time"))
                         {
-                            worldType = choose("New Project", "Enter world type\n", SaveLoader.Type.values());
+                            worldType = choose("New Project", "Enter world type\n", SaveLoader.selectableTypes);
                         }
                         else
                         {

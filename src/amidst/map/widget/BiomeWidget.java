@@ -13,7 +13,7 @@ import amidst.Options;
 import amidst.Util;
 import amidst.map.layers.BiomeLayer;
 import amidst.minecraft.Biome;
-import MoF.MapViewer;
+import amidst.project.MapViewer;
 
 public class BiomeWidget extends PanelWidget
 {
@@ -330,34 +330,34 @@ public class BiomeWidget extends PanelWidget
             biomes.add(Biome.mushroomIsland);
             biomes.add(Biome.mushroomIslandShore);
 
-            biomes.add(Biome.oceanM);
-            biomes.add(Biome.deepOceanM);
-            biomes.add(Biome.frozenOceanM);
+            //biomes.add(Biome.oceanM);
+            //biomes.add(Biome.deepOceanM);
+            //biomes.add(Biome.frozenOceanM);
 
             biomes.add(Biome.sunflowerPlains);
 
             biomes.add(Biome.flowerForest);
-            biomes.add(Biome.forestHillsM);
+            //biomes.add(Biome.forestHillsM);
             biomes.add(Biome.birchForestM);
             biomes.add(Biome.birchForestHillsM);
             biomes.add(Biome.taigaM);
-            biomes.add(Biome.taigaHillsM);
+            //biomes.add(Biome.taigaHillsM);
             biomes.add(Biome.coldTaigaM);
-            biomes.add(Biome.coldTaigaHillsM);
+            //biomes.add(Biome.coldTaigaHillsM);
 
-            biomes.add(Biome.iceMountainsM);
+            //biomes.add(Biome.iceMountainsM);
             biomes.add(Biome.extremeHillsM);
-            biomes.add(Biome.extremeHillsEdgeM);
+            //biomes.add(Biome.extremeHillsEdgeM);
             biomes.add(Biome.extremeHillsPlusM);
 
             biomes.add(Biome.jungleM);
-            biomes.add(Biome.jungleHillsM);
+            //biomes.add(Biome.jungleHillsM);
             biomes.add(Biome.jungleEdgeM);
             biomes.add(Biome.savannaM);
             biomes.add(Biome.savannaPlateauM);
 
             biomes.add(Biome.desertM);
-            biomes.add(Biome.desertHillsM);
+            //biomes.add(Biome.desertHillsM);
             biomes.add(Biome.mesaPlateauM);
             biomes.add(Biome.mesaPlateauFM);
             biomes.add(Biome.mesaBryce);
@@ -365,14 +365,14 @@ public class BiomeWidget extends PanelWidget
             biomes.add(Biome.roofedForestM);
             biomes.add(Biome.swamplandM);
 
-            biomes.add(Biome.beachM);
-            biomes.add(Biome.coldBeachM);
-            biomes.add(Biome.stoneBeachM);
+            //biomes.add(Biome.beachM);
+            //biomes.add(Biome.coldBeachM);
+            //biomes.add(Biome.stoneBeachM);
 
-            biomes.add(Biome.riverM);
-            biomes.add(Biome.frozenRiverM);
-            biomes.add(Biome.mushroomIslandM);
-            biomes.add(Biome.mushroomIslandShoreM);
+            //biomes.add(Biome.riverM);
+            //biomes.add(Biome.frozenRiverM);
+            //biomes.add(Biome.mushroomIslandM);
+            //biomes.add(Biome.mushroomIslandShoreM);
         }
         else
         {

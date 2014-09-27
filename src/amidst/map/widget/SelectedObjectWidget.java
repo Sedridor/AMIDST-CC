@@ -3,7 +3,7 @@ package amidst.map.widget;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import amidst.map.MapObject;
-import MoF.MapViewer;
+import amidst.project.MapViewer;
 
 public class SelectedObjectWidget extends PanelWidget
 {
